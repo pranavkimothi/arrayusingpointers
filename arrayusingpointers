@@ -1,0 +1,23 @@
+//MY FOURTH PROGRAM WITH MY CAPTAIN AADHAR BHATNAGAR SIR
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a[10];int i,*ptr;
+    for(i=0;i<10;i++)
+    {
+        cout<<"Enter "<<i+1<<" element of the array: ";
+        cin>>a[i];
+    }
+
+    ptr=a;
+
+    for(i=0;i<10;i++)
+    {
+        cout<<"\n"<<i+1<<" element of the array is: "<<*(ptr+i);
+
+    }
+    return 0;
+}
+
